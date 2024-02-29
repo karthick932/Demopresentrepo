@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CEF_NewWizard">
+	</section>
+	<section name="sync-points">
+		<item value="0" key="size"/>
+	</section>
+	<section name="last.test.options.tab">
+		<section name="editor-A1EED6C523BFD560EB74B86164633131">
+		</section>
+		<section name="editor-A1EED6BAF47DCB90C4FEB83561633736">
+		</section>
+	</section>
+	<section name="EDITOR_STATE">
+		<section name="editor-A1EED6C523BFD560EB74B86164633131">
+			<item value="L/Performancetestproject/Schedules/VUschedule.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EED6C523BFD560EB74B86164633131"/>
+			</list>
+		</section>
+		<section name="editor-A1EED6BAF47DCB90C4FEB83561633736">
+			<item value="L/Performancetestproject/Tests/Testscriptperformance.testsuite" key="file"/>
+			<item value="0" key="lastEditorViewMode"/>
+			<list key="lastselection">
+				<item value="A1EED6BAF47DCB90C4FEB83561633736"/>
+			</list>
+		</section>
+	</section>
+	<section name="com.ibm.rational.test.common.editor.framework.SearchPage">
+		<item value="false" key="srch.label.case.default"/>
+		<item value="false" key="srch.label.limit.default"/>
+		<item value="true" key="srch.label.recursive.default"/>
+		<item value="false" key="srch.label.select.default"/>
+		<item value="false" key="srch.label.regex.default"/>
+	</section>
+</section>

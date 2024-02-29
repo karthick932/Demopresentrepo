@@ -1,0 +1,151 @@
+!SESSION 2024-02-28 15:20:42.212 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=1.8.0_382-b05
+JRE 1.8.0 Windows 8 amd64-64-Bit Compressed References 20230810_742 (JIT enabled, AOT enabled)
+OpenJ9   - d12d10c9e
+OMR      - e80bff83b
+JCL      - c4d2c2bafb based on jdk8u382-b05
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product com.ibm.rational.rft.product.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.ibm.rational.rft.product.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-02-28 15:44:46.993
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\karthick_ba'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.ibm.rational.test.rtw.webgui.recorder 4 0 2024-02-28 16:00:44.141
+!MESSAGE CRRTWW0022E Exception in starting Chrome browser.
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LP1-AP-51685672', ip: '192.168.1.34', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_382'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, test-type, --allow-running-insecure-co..., --disable-infobars], extensions: [Q3IyNAMAAABBAQAAEqgCCqIBMIG...]}, unhandledPromptBehavior: ignore}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, test-type, --allow-running-insecure-co..., --disable-infobars], extensions: [Q3IyNAMAAABBAQAAEqgCCqIBMIG...]}, unhandledPromptBehavior: ignore}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at com.ibm.rational.test.rtw.webgui.client.SelChromeClientDelegate.startSelClient(SelChromeClientDelegate.java:138)
+	at com.ibm.rational.test.rtw.webgui.client.SelClientDelegate.start(SelClientDelegate.java:91)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client.startDelegate(Client.java:103)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client.startDecoration(Client.java:278)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client.access$13(Client.java:275)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client$8.run(Client.java:291)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.ProcessingQueue.run(ProcessingQueue.java:38)
+
+!STACK 0
+java.lang.Throwable: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LP1-AP-51685672', ip: '192.168.1.34', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_382'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, test-type, --allow-running-insecure-co..., --disable-infobars], extensions: [Q3IyNAMAAABBAQAAEqgCCqIBMIG...]}, unhandledPromptBehavior: ignore}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*, test-type, --allow-running-insecure-co..., --disable-infobars], extensions: [Q3IyNAMAAABBAQAAEqgCCqIBMIG...]}, unhandledPromptBehavior: ignore}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:248)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:164)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:106)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:93)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82)
+	at com.ibm.rational.test.rtw.webgui.client.SelChromeClientDelegate.startSelClient(SelChromeClientDelegate.java:138)
+	at com.ibm.rational.test.rtw.webgui.client.SelClientDelegate.start(SelClientDelegate.java:91)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client.startDelegate(Client.java:103)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client.startDecoration(Client.java:278)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client.access$13(Client.java:275)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.Client$8.run(Client.java:291)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.ProcessingQueue.run(ProcessingQueue.java:38)
+
+!ENTRY com.ibm.rational.test.rtw.webgui.recorder 4 0 2024-02-28 16:00:44.235
+!MESSAGE CRRTWW0017E Exception in Recorder Delegate
+java.lang.NullPointerException
+	at com.ibm.rational.test.rtw.webgui.recorder.selenium.WebDriverRecorderDelegate.modifyBrowserDimension(WebDriverRecorderDelegate.java:161)
+	at com.ibm.rational.test.rtw.webgui.recorder.WebGuiRecorderDelegate.setWebDriverDimension(WebGuiRecorderDelegate.java:171)
+	at com.ibm.rational.test.rtw.webgui.recorder.WebGuiRecorderDelegate.messageReceived(WebGuiRecorderDelegate.java:375)
+	at com.ibm.rational.test.rtw.webgui.service.impl.BrowserContextManager.associateWebRecorderDelegate(BrowserContextManager.java:91)
+	at com.ibm.rational.test.rtw.webgui.recorder.selenium.WebDriverRecorderDelegate.processWebGuiInitMessage(WebDriverRecorderDelegate.java:221)
+	at com.ibm.rational.test.rtw.webgui.recorder.WebGuiRecorderDelegate.messageReceived(WebGuiRecorderDelegate.java:374)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.DelegaterComponent.issueMessage(DelegaterComponent.java:121)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.RecordingSession.sendRecorders(RecordingSession.java:566)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.RecordingSession.dispatchMessage(RecordingSession.java:519)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.DelegaterComponent.syncDispatchMessage(DelegaterComponent.java:150)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.DelegaterComponent$2.run(DelegaterComponent.java:139)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.ProcessingQueue.run(ProcessingQueue.java:38)
+
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.test.rtw.webgui.recorder.selenium.WebDriverRecorderDelegate.modifyBrowserDimension(WebDriverRecorderDelegate.java:161)
+	at com.ibm.rational.test.rtw.webgui.recorder.WebGuiRecorderDelegate.setWebDriverDimension(WebGuiRecorderDelegate.java:171)
+	at com.ibm.rational.test.rtw.webgui.recorder.WebGuiRecorderDelegate.messageReceived(WebGuiRecorderDelegate.java:375)
+	at com.ibm.rational.test.rtw.webgui.service.impl.BrowserContextManager.associateWebRecorderDelegate(BrowserContextManager.java:91)
+	at com.ibm.rational.test.rtw.webgui.recorder.selenium.WebDriverRecorderDelegate.processWebGuiInitMessage(WebDriverRecorderDelegate.java:221)
+	at com.ibm.rational.test.rtw.webgui.recorder.WebGuiRecorderDelegate.messageReceived(WebGuiRecorderDelegate.java:374)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.DelegaterComponent.issueMessage(DelegaterComponent.java:121)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.RecordingSession.sendRecorders(RecordingSession.java:566)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.RecordingSession.dispatchMessage(RecordingSession.java:519)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.DelegaterComponent.syncDispatchMessage(DelegaterComponent.java:150)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.DelegaterComponent$2.run(DelegaterComponent.java:139)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.ProcessingQueue.run(ProcessingQueue.java:38)
+
+!ENTRY com.ibm.rational.test.lt.recorder.core 4 0 2024-02-28 16:00:44.235
+!MESSAGE Unexpected exception
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.rational.test.rtw.webgui.recorder.WebDriverPollThread.<init>(WebDriverPollThread.java:26)
+	at com.ibm.rational.test.rtw.webgui.recorder.selenium.WebDriverRecorderDelegate.processWebGuiInitMessage(WebDriverRecorderDelegate.java:225)
+	at com.ibm.rational.test.rtw.webgui.recorder.WebGuiRecorderDelegate.messageReceived(WebGuiRecorderDelegate.java:374)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.DelegaterComponent.issueMessage(DelegaterComponent.java:121)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.RecordingSession.sendRecorders(RecordingSession.java:566)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.RecordingSession.dispatchMessage(RecordingSession.java:519)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.DelegaterComponent.syncDispatchMessage(DelegaterComponent.java:150)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.DelegaterComponent$2.run(DelegaterComponent.java:139)
+	at com.ibm.rational.test.lt.recorder.core.internal.session.ProcessingQueue.run(ProcessingQueue.java:38)
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2024-02-28 16:03:38.911
+!MESSAGE RPTTI0001 Test generation started at Wed Feb 28 16:03:38 IST 2024 -- input:  ScriptforPlaceOrder(2).recsession
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2024-02-28 16:03:40.647
+!MESSAGE RPTTI0002 Test generation completed at Wed Feb 28 16:03:40 IST 2024 -- output:  ScriptforPlaceOrder.testsuite
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2024-02-28 17:47:13.993
+!MESSAGE RPTTI0001 Test generation started at Wed Feb 28 17:47:13 IST 2024 -- input:  UITestscript.recsession
+
+!ENTRY com.ibm.rational.test.lt.testgen.core3 1 0 2024-02-28 17:47:17.430
+!MESSAGE RPTTI0002 Test generation completed at Wed Feb 28 17:47:17 IST 2024 -- output:  UITestscript.testsuite
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2024-02-28 17:55:54.918
+!MESSAGE RPTR0000W ALOHA STOP for null
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2024-02-28 17:55:54.929
+!MESSAGE RPTR0000W XMLAlohaTypedEventLoader setStatus HISTORY_COMPLETE for null
+
+!ENTRY com.ibm.rational.test.lt.execution 1 0 2024-02-28 17:55:59.347
+!MESSAGE RPTJ1000E Cleaning working directory C:\Users\karthick_ba\AppData\Local\Temp\rpt.UITestscript.7403315107795515887
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2024-02-28 18:07:21.104
+!MESSAGE RPTR0000W ALOHA STOP for null
+
+!ENTRY com.ibm.rational.test.lt.execution.extension 2 0 2024-02-28 18:07:21.104
+!MESSAGE RPTR0000W XMLAlohaTypedEventLoader setStatus HISTORY_COMPLETE for null
+
+!ENTRY com.ibm.rational.test.lt.execution 1 0 2024-02-28 18:07:23.629
+!MESSAGE RPTJ1000E Cleaning working directory C:\Users\karthick_ba\AppData\Local\Temp\rpt.UITestscript.7491526533352745031
